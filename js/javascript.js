@@ -92,7 +92,7 @@ $(function(){
     const $bnrAuto = function(){
         intervalkey = setInterval(function(){
             bnroldIdx = bnrIdx;
-            if(bnrIdx<5){
+            if(bnrIdx<4){
                 bnrIdx++;
             }else if(bnrIdx=5){
                 bnrIdx=0;
@@ -163,7 +163,7 @@ $(function(){
         evt.preventDefault();
         if(focusIdx<=5){
             focusIdx++;
-        }else if(focusIdx=6){
+        }else if(focusIdx=7){
             focusIdx=0;
         }
         clearInterval(intervalkey1);
